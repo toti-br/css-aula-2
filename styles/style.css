@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  width: 600px;
+}
+
+figure {
+  /* margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0; */
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: gray;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 13px;
+}
+
+blockquote {
+  font-size: 20px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  color: gray;
+  font-weight: 300;
+}
+
+h3 {
+  margin-top: 55px;
+}
+
+.linkBox {
+  display: flex;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: gray; */
+  border: 1px solid gray;
+  color: black;
+  text-decoration: none;
+}
+
+.linkBox .textDiv {
+  /* padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 13px; */
+  padding: 13px;
+}
+
+.linkBox h2,
+.linkBox p {
+  font-size: 16px;
+}
+
+.linkBox .link {
+  font-size: 12px
+}
+
+.linkBox p {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: gray;
+}
+
+.linkBox img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
